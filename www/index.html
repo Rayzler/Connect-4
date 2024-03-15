@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="telephone=no" name="format-detection"/>
+    <meta content="no" name="msapplication-tap-highlight"/>
+    <meta content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width"
+          name="viewport"/>
+    <link href="css/index.css" rel="stylesheet" type="text/css"/>
+    <link href="css/bootstrap.min.css" rel="stylesheet"/>
+    <title>Tic-Tac-Toe</title>
+</head>
+<body>
+<h1 class="text-white text-center mt-3 mb-5">Conecta 4</h1>
+
+<div id="board" class="container-fluid"></div>
+
+<div id="settings">
+    <div class="config">
+        <p>Elige tu color</p>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="color" id="red" value="red" checked>
+            <label class="form-check-label" for="red">
+                Rojo
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="color" id="yellow" value="yellow">
+            <label class="form-check-label" for="yellow">
+                Amarillo
+            </label>
+        </div>
+    </div>
+    
+    <div class="config">
+        <p>Elige quien inicia</p>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="turn" id="player" value="player" checked>
+            <label class="form-check-label" for="player">
+                Jugador
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="turn" id="cpu" value="CPU">
+            <label class="form-check-label" for="cpu">
+                CPU
+            </label>
+        </div>
+    </div>
+    
+    <div class="row config">
+        <div class="input-group mb-3 col flex-column align-items-start">
+            <p class="text-white">Tamaño del tablero</p>
+            <label>
+                <input type="number" class="form-control text-dark" placeholder="Dimensión del tablero" value="5" max="12" min="4">
+            </label>
+        </div>
+    </div>
+    
+    <div class="row">
+        <button id="mode" class="text-dark">Jugar</button>
+    </div>
+</div>
+
+<script src="js/jquery-3.7.1.min.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>

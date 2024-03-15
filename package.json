@@ -1,0 +1,23 @@
+{
+  "name": "io.cordova.connect4",
+  "displayName": "Conecta 4",
+  "version": "1.0.0",
+  "description": "Un clásico juego de mesa Conecta 4",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "author": "Apache Cordova Team",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "cordova-android": "^12.0.1"
+  },
+  "cordova": {
+    "platforms": [
+      "android"
+    ]
+  }
+}

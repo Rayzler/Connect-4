@@ -1,0 +1,49 @@
+body {
+    background-color: #1B1212 !important;
+
+    & * {
+        color: white !important;
+    }
+}
+
+#settings {
+    border-radius: 20px;
+    width: 300px;
+    background-color: gray;
+    padding-inline: 30px;
+    padding-bottom: 30px;
+    padding-top: 1px;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    margin-inline: auto;
+
+    & p {
+        margin-top: 30px;
+    }
+
+    & button {
+        margin-top: 20px;
+    }
+}
+
+.container-fluid {
+    width: 90vw !important;
+    max-width: 500px !important;
+    aspect-ratio: 1/1 !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    & .row {
+        flex-grow: 1;
+
+        & .col {
+            background-image: url("../img/cell.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            aspect-ratio: 1/1 !important;
+        }
+    }
+}
